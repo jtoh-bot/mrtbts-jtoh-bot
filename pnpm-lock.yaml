@@ -16,7 +16,7 @@ importers:
         version: 16.4.5
       jandas:
         specifier: ^1.2.2
-        version: 1.2.2
+        version: 1.2.6
     devDependencies:
       eslint:
         specifier: ^9.10.0
@@ -636,8 +636,8 @@ packages:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
 
-  is-core-module@2.15.1:
-    resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
+  is-core-module@2.16.1:
+    resolution: {integrity: sha512-UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==}
     engines: {node: '>= 0.4'}
 
   is-extglob@2.1.1:
@@ -651,8 +651,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  jandas@1.2.2:
-    resolution: {integrity: sha512-JYDOHnjDjLxXy/UJko3sXBf5vgMN2T7gZAhRsyxI++nnsBRhbMRDy0P+/JA0ALUIldicLhLMqyuqJYdIJI2Ixg==}
+  jandas@1.2.6:
+    resolution: {integrity: sha512-b+DoFHohhqXDtBbrUOYiAnCF5UOu8NqXxTMBg+wHb62Sfzx8FnJx1yJDuXeB2PRAikrJzCTSJ071zVxbLBH5mQ==}
 
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
@@ -741,8 +741,9 @@ packages:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
 
-  resolve@1.22.8:
-    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
+  resolve@1.22.10:
+    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+    engines: {node: '>= 0.4'}
     hasBin: true
 
   shebang-command@2.0.0:
@@ -753,8 +754,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  simple-statistics@7.8.5:
-    resolution: {integrity: sha512-yw4aOnkvPLbL80zamrEKznAnk5cIIkjEcx/z0aQl+m/YKMmVufrnWgWJWRspqZtwh+ElZXRhJ0MtnUjFUQV5Ow==}
+  simple-statistics@7.8.8:
+    resolution: {integrity: sha512-CUtP0+uZbcbsFpqEyvNDYjJCl+612fNgjT8GaVuvMG7tBuJg8gXGpsP5M7X658zy0IcepWOZ6nPBu1Qb9ezA1w==}
 
   strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
@@ -1246,7 +1247,7 @@ snapshots:
       '@stdlib/fs-resolve-parent-path': 0.2.2
       '@stdlib/utils-convert-path': 0.2.2
       debug: 2.6.9
-      resolve: 1.22.8
+      resolve: 1.22.10
     transitivePeerDependencies:
       - supports-color
 
@@ -1470,7 +1471,7 @@ snapshots:
 
   imurmurhash@0.1.4: {}
 
-  is-core-module@2.15.1:
+  is-core-module@2.16.1:
     dependencies:
       hasown: 2.0.2
 
@@ -1482,11 +1483,11 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  jandas@1.2.2:
+  jandas@1.2.6:
     dependencies:
       '@stdlib/stats-ranks': 0.2.2
       lodash: 4.17.21
-      simple-statistics: 7.8.5
+      simple-statistics: 7.8.8
     transitivePeerDependencies:
       - supports-color
 
@@ -1564,9 +1565,9 @@ snapshots:
 
   resolve-from@4.0.0: {}
 
-  resolve@1.22.8:
+  resolve@1.22.10:
     dependencies:
-      is-core-module: 2.15.1
+      is-core-module: 2.16.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -1576,7 +1577,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  simple-statistics@7.8.5: {}
+  simple-statistics@7.8.8: {}
 
   strip-json-comments@3.1.1: {}
 
